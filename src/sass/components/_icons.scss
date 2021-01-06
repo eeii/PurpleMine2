@@ -815,10 +815,6 @@ div.wiki {
 .contextual [href*="edit"] {
   @extend %fa-icon;
 
-  &::before {
-    content: $fa-var-pencil;
-  }
-
   img {
     display: none;
   }
